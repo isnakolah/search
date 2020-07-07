@@ -1,0 +1,62 @@
+.page-links {
+  float: right;
+}
+.page-links button {
+  border: none;
+  background-color: white;
+}
+.page-links button a {
+  text-decoration: none;
+  color: black;
+}
+.page-links button:hover a {
+  text-decoration: underline;
+}
+
+.search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+.search input[type=text] {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  background-color: yellow;
+  border: none;
+  margin: 0;
+  padding: 5px 37px 5px 37px;
+  width: 200px;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+}
+.search input[type=submit] {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
