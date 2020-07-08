@@ -1,8 +1,12 @@
 $button-color: lightgrey;
 
+html {
+    padding: 18px 10px 0px 0px;
+}
+
 .page-links {
     float: right;
-    
+
     button {
         border: none;
         background-color: white;
